@@ -1,3 +1,14 @@
+# Docker
+
+build docker image:
+docker build -t snkkid/fpc-react-prod .
+
+liste des images docker:
+docker images
+
+run image:
+docker run -d -p 8080:80 snkkid/fpc-react-prod
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
